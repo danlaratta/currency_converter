@@ -1,9 +1,18 @@
 import './App.css';
+import CurrencyRow from './components/CurrencyRow';
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1> Hello </h1>
+      <h1> Convert </h1>
+
+      <CurrencyRow />
+
+      <div className='equals'>
+        =
+      </div>
+
+      <CurrencyRow />
     </>
   );
 }
